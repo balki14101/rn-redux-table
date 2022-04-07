@@ -1,30 +1,30 @@
 import {
-  INCREMENT_LOADING,
-  INCREMENT_SUCCESS,
-  INCREMENT_ERROR,
-} from '../types/counter';
+  USER_DETAILS_LOADING,
+  USER_DETAILS_SUCCESS,
+  USER_DETAILS_ERROR,
+} from '../types/user';
 
 const initialState = {
   loading: false,
-  counterValue: 0,
+  details: null,
 };
 
-const counterReducer = (state = initialState, action) => {
+const userReducer = (state = initialState, action) => {
   switch (action.type) {
-    case INCREMENT_LOADING: {
+    case USER_DETAILS_LOADING: {
       return {
         ...state,
         loading: true,
       };
     }
-    case INCREMENT_SUCCESS: {
+    case USER_DETAILS_SUCCESS: {
       return {
         ...state,
         loading: false,
-        counterValue: state.counterValue + 1,
+        details: action.response,
       };
     }
-    case INCREMENT_ERROR: {
+    case USER_DETAILS_ERROR: {
       return {
         ...state,
         loading: false,
@@ -36,4 +36,4 @@ const counterReducer = (state = initialState, action) => {
   }
 };
 
-export default counterReducer;
+export default userReducer;

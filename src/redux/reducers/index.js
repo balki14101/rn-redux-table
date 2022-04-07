@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux';
-import counterReducer from './counter';
+import userReducer from './user';
 
-const AppReducer = combineReducers({counter: counterReducer});
+const AppReducer = combineReducers({user: userReducer});
 
 export default AppReducer;

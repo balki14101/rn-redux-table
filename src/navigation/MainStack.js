@@ -2,13 +2,13 @@ import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 const Stack = createNativeStackNavigator();
 
-import CounterScreen from '../screens/Counter';
+import HomeScreen from '../screens/Home';
 
 const MainStack = () => {
   return (
     <Stack.Navigator>
       <>
-        <Stack.Screen name="Counter" component={CounterScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} />
       </>
     </Stack.Navigator>
   );

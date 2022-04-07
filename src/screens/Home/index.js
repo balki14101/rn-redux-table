@@ -13,7 +13,7 @@ const Height = Dimensions.get('screen').height;
  * @description bla kuasdjajdjhasnkjasd
  * @returns {JSX}
  */
-const Counter = props => {
+const Home = props => {
   const {counterValue, loading, triggerIncrement} = props;
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
@@ -59,4 +59,4 @@ const mapDispatchToProps = {
   triggerIncrement: increment,
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Counter);
+export default connect(mapStateToProps, mapDispatchToProps)(Home);

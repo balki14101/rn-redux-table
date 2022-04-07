@@ -21,6 +21,7 @@ const userReducer = (state = initialState, action) => {
       return {
         ...state,
         loading: false,
+        details: action.response,
       };
     }
     case USER_DETAILS_ERROR: {

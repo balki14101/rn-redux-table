@@ -4,6 +4,14 @@
 
 ### Download the APK from:  [Github link](https://github.com/balki14101/rn-redux-table/releases/tag/v1.0.0)
 
+## License
+
+GNU GPL
+
+[![React Native](https://reactnative.dev/img/oss_logo.png)](https://reactnative.dev/)
+
+[![GithubFollow @balki14101](https://img.shields.io/github/last-commit/balki14101/rn-redux-table?)](https://github.com/balki14101/)[![GithubFollow @balki14101](https://img.shields.io/github/languages/count/balki14101/rn-redux-table?color=orange)](https://github.com/balki14101/) [![GithubFollow @balki14101](https://img.shields.io/github/languages/top/balki14101/rn-redux-table?color=blueviolet)](https://github.com/balki14101/) [![GithubFollow @balki14101](https://img.shields.io/github/languages/code-size/balki14101/rn-redux-table?color=pink)](https://github.com/balki14101/) [![GithubFollow @balki14101](https://img.shields.io/github/repo-size/balki14101/rn-redux-table)](https://github.com/balki14101/) [![GithubFollow @balki14101](https://img.shields.io/github/commit-activity/m/balki14101/rn-redux-table?color=%23DB62B2%20)](https://github.com/balki14101/)
+
 ## Screenshots
 
 | Initially No data |Loader| Data Table
@@ -100,11 +108,3 @@ adb install app-release.apk
 | React Native              | 0.67    |
 | React Navigation          | 6       |
 |Redux Saga                 | 1       |
-
-## License
-
-GNU GPL
-
-[![React Native](https://reactnative.dev/img/oss_logo.png)](https://reactnative.dev/)
-
-[![GithubFollow @balki14101](https://img.shields.io/github/last-commit/balki14101/rn-redux-table?)](https://github.com/balki14101/)[![GithubFollow @balki14101](https://img.shields.io/github/languages/count/balki14101/rn-redux-table?color=orange)](https://github.com/balki14101/) [![GithubFollow @balki14101](https://img.shields.io/github/languages/top/balki14101/rn-redux-table?color=blueviolet)](https://github.com/balki14101/) [![GithubFollow @balki14101](https://img.shields.io/github/languages/code-size/balki14101/rn-redux-table?color=pink)](https://github.com/balki14101/) [![GithubFollow @balki14101](https://img.shields.io/github/repo-size/balki14101/rn-redux-table)](https://github.com/balki14101/) [![GithubFollow @balki14101](https://img.shields.io/github/commit-activity/m/balki14101/rn-redux-table?color=%23DB62B2%20)](https://github.com/balki14101/)
